@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning Selenium ATB6x">
+    <test verbose="2" preserve-order="true" name="ATB6xLearningSelenium">
+        <classes>
+            
+            
+            <class name="LearningSeleniumATB6x.ex_selenium.Lab085.java"/> 
+             	
+          	
+            <!-- Add more classes as needed -->
+            
+        </classes>
+    </test>
+</suite>
