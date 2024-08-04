@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning Selenium ATB6x Smoke Test">
+	<test verbose="2" preserve-order="true"
+		name="ATB6xLearningSeleniumPostive">
+		<classes>
+
+
+			<!-- <class name="LearningSeleniumATB6x\ex_selenium_13072024.Lab092"/> -->
+
+
+			<class name="LearningSeleniumATB6x\ex_selenium_13072024.Lab093" />
+
+			<!-- Add more classes as needed -->
+
+		</classes>
+	</test>
+</suite>

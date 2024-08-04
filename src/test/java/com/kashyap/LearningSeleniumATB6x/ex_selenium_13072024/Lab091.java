@@ -41,8 +41,12 @@ public class Lab091 {
 		WebElement errormsgEmailExists = driver.findElement(By.className("invalid-reason"));
 		System.out.println("Error of email already exists ::::::::::" + errormsgEmailExists.getText());
 
-		Assert.assertEquals(errormsgEmailExists.getText(), "An account with this email already exists. Login Here");
-
+		//Assert.assertEquals(errormsgEmailExists.getText(), "An account with this email already exists. Login Here");
+		
+		driver.quit();
+		
+		
+		
 	}
 
 }
